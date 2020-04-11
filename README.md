@@ -16,7 +16,7 @@ There is a folder for each of the 9 case studies presented in the evaluation of 
 *Executable class*
 
 The executable Java file is available
-src->es.us.eii.fault.loc.syvolt.mt.main-> FaultLocalizationMT_Main. In order to execute it with the different case studies, some lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting Run As -> Java Application. The code contains explanations for executing each case study in lines 38-48 of FaultLocalizationMT_Main.java
+*src->es.us.eii.fault.loc.syvolt.mt.main-> FaultLocalizationMT_Main*. In order to execute it with the different case studies, some lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting Run As -> Java Application. The code contains explanations for executing each case study in lines 38-48 of FaultLocalizationMT_Main.java
 
 *Output*
 
