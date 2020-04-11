@@ -20,7 +20,7 @@ src->es.us.eii.fault.loc.syvolt.mt.main-> FaultLocalizationMT_Main. In order to 
 
 *Output*
 
-When the execution finishes, the following outputs are provided in the corresponding results folder:
+When the execution finishes, the following outputs are provided in the corresponding *results* folder:
 - A folder is created for each mutant for which at least one contract is not satisfied in at least one PC. Inside the folder, we can find:
     - A CSV file for each contract that is not satisfied, where the coverage matrix, error vector and suspiciousness-based rankings for all 18 techniques are computed.
     - A CSV summarizing the suspiciousness-based rankings for all contracts that have not been satisfied. EXAM scores are also provided
