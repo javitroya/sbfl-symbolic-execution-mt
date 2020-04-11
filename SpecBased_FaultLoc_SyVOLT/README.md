@@ -35,5 +35,5 @@ Additionally, this folder comprises the set of data that has been analyzed for t
 
 
 
-[1] Javier Troya, Bentley J. Oakes, Manuel Wimmer. "Fault Localization in Model Transformations by Combining Symbolic Execution and Spectrum-Based Analysis". Submitted, 2020
+[1] Javier Troya, Bentley James Oakes, Manuel Wimmer. "Fault Localization in Model Transformations by Combining Symbolic Execution and Spectrum-Based Analysis". Submitted, 2020
 
