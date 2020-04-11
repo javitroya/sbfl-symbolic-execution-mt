@@ -9,6 +9,7 @@ There is a project, named SpecBased_FaultLoc_SyVOLT.
 This project contains the executable to compute the suspiciousness values with the 18 techniques. 
 
 *Input* 
+
 There is a folder for each of the 9 case studies presented in the evaluation of [1]. Inside each of the folders, there is an XML file which is the output provided by the SyVOLT tool, where the symbolic execution of all the mutations and contracts are provided (refer to ). This is the *input* for the spectrum-based fault localization.
 
 *Executable class*
