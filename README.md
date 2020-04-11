@@ -1,9 +1,9 @@
 # sbfl-symolic-execution-mt
 Fault Localization in Model Transformations by Combining Symbolic Execution and Spectrum-Based Analysis
 
-This projects supports and verifies the evaluation performed in [1]. It has been developed with Eclipse Modeling Tools
+This projects supports and verifies the evaluation performed in [1].
 
-There is a project, named SpecBased_FaultLoc_SyVOLT. This project contains the executable to compute the suspiciousness values with the 18 techniques. 
+There is an eclipse project, named SpecBased_FaultLoc_SyVOLT. This project contains the executable to compute the suspiciousness values with the 18 techniques. 
 
 **Input** 
 
