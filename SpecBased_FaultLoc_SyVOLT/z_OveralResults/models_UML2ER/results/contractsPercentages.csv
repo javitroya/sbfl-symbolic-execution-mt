@@ -1,0 +1,16 @@
+Case1;Percentage of mutants where the contract is satisfied (or invalid) on all PCs (i.e., failed=0 and succeed>0)
+Case2;Percentage of mutants where the contract is not satisfied (or invalid) on all PCs (i.e., failed>0 and succeed=0)
+Case3;Percentage of mutants where the contract invalid on all PCs (i.e., failed=0 and succeed=0)
+Case4;Percentage of mutants where the contract has a mix of satisfied, not satisfied, and invalid on the set of PCs (i.e., failed>0 and succeed>0)
+
+Contract;Case1;Case2;Case3;Case4
+Contract05;96.335;2.618;0.524;0.524
+Contract02;86.911;5.236;7.853;0.000
+Contract03;87.958;0.524;10.995;0.524
+Contract10;76.440;6.283;16.754;0.524
+Contract12b;73.822;5.759;20.419;0.000
+Contract12a;73.822;5.759;20.419;0.000
+Contract08;74.346;5.236;20.419;0.000
+Contract09;76.440;6.283;16.754;0.524
+Contract06;93.194;1.047;4.712;1.047
+Contract07;90.052;1.047;5.759;3.141

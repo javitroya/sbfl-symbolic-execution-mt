@@ -1,0 +1,20 @@
+Case1;Percentage of mutants where the contract is satisfied (or invalid) on all PCs (i.e., failed=0 and succeed>0)
+Case2;Percentage of mutants where the contract is not satisfied (or invalid) on all PCs (i.e., failed>0 and succeed=0)
+Case3;Percentage of mutants where the contract invalid on all PCs (i.e., failed=0 and succeed=0)
+Case4;Percentage of mutants where the contract has a mix of satisfied, not satisfied, and invalid on the set of PCs (i.e., failed>0 and succeed>0)
+
+Contract;Case1;Case2;Case3;Case4
+IF(MM5): THEN(MM5_then);91.159;0.000;8.540;0.301
+IF(MM9): THEN(OR(NOT(MM9_then1), AND(NOT(MM9_then2), MM9_then1)));91.610;0.000;8.390;0.000
+IF(MM4): THEN(AND(NOT(MM4_then2), MM4_then1));87.660;0.489;10.835;1.016
+IF(MM8): THEN(OR(NOT(MM8_then1), AND(NOT(MM8_then2), MM8_then1)));91.573;0.000;8.427;0.000
+IF(MM6): THEN(MM6_then);91.272;0.000;8.540;0.188
+PP1;88.375;0.000;10.647;0.978
+PP3;85.929;0.489;11.738;1.843
+IF(MM1): THEN(AND(NOT(MM1_then2), MM1_then1));90.895;0.376;8.540;0.188
+IF(MM7): THEN(MM7_then);91.347;0.000;8.390;0.263
+PP2;88.525;0.000;10.497;0.978
+PP4;87.848;0.489;11.588;0.075
+IF(MM11): THEN(MM11_then);90.218;0.000;8.390;1.392
+IF(MM3): THEN(AND(NOT(MM3_then2), MM3_then1));87.810;0.376;10.835;0.978
+IF(MM2): THEN(AND(NOT(MM2_then2), MM2_then1));90.783;0.414;8.390;0.414

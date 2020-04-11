@@ -1,0 +1,22 @@
+Case1;Percentage of mutants where the contract is satisfied (or invalid) on all PCs (i.e., failed=0 and succeed>0);;;
+Case2;Percentage of mutants where the contract is not satisfied (or invalid) on all PCs (i.e., failed>0 and succeed=0);;;
+Case3;Percentage of mutants where the contract invalid on all PCs (i.e., failed=0 and succeed=0);;;
+Case4;Percentage of mutants where the contract has a mix of satisfied, not satisfied, and invalid on the set of PCs (i.e., failed>0 and succeed>0);;;
+;;;;
+Contract;Case1;Case2;Case3;Case4
+UnitConnectDistricts;95.918;0.322;3.652;0.107
+UnitCity2TownHall;98.496;0.000;1.504;0.000
+UnitConnectSon;96.670;0.322;2.256;0.752
+UnitConnectAssoc;95.704;0.322;3.867;0.107
+UnitDaughter2Woman;95.918;1.074;2.363;0.644
+UnitConnectTownHall;94.307;0.644;1.719;3.330
+UnitMother2Woman;95.811;1.074;2.470;0.644
+UnitFather2Man;95.918;1.074;2.470;0.537
+UnitConnectSpecSchool;90.011;2.148;7.734;0.107
+UnitCountry2Community;99.141;0.107;0.644;0.107
+UnitN2D;96.455;0.215;3.330;0.000
+UnitSon2Man;96.133;1.074;2.256;0.537
+UnitConnectDaughter;96.992;0.322;2.363;0.322
+UnitConnectMother;96.348;0.322;2.470;0.859
+UnitConnectFather;96.241;0.322;2.470;0.967
+UnitConnectOrdSchool;89.903;2.148;7.734;0.215

@@ -1,0 +1,12 @@
+Case1;Percentage of mutants where the contract is satisfied (or invalid) on all PCs (i.e., failed=0 and succeed>0)
+Case2;Percentage of mutants where the contract is not satisfied (or invalid) on all PCs (i.e., failed>0 and succeed=0)
+Case3;Percentage of mutants where the contract invalid on all PCs (i.e., failed=0 and succeed=0)
+Case4;Percentage of mutants where the contract has a mix of satisfied, not satisfied, and invalid on the set of PCs (i.e., failed>0 and succeed>0)
+
+Contract;Case1;Case2;Case3;Case4
+Pos_FourMembers;88.614;1.719;7.841;1.826
+Pos_AssocCity;94.092;0.967;1.719;3.222
+Pos_TownHallComm;94.737;0.644;1.504;3.115
+Pos_MotherFather;91.837;0.000;4.619;3.545
+Pos_ParentCompany;95.274;0.537;4.082;0.107
+Pos_ChildSchool;91.515;0.752;7.734;0.000

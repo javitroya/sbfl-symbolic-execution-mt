@@ -1,0 +1,2 @@
+The XML file with the output of the SYVOLT tool (input for the spectrum-based fault localization) must be placed here.
+It can be found on https://drive.google.com/open?id=1wSqx2EbQAHIZ4Hw-GIl4aLOnq7H6gTo7
