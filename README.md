@@ -1,18 +1,18 @@
-# sbfl-symolic-execution-mt
+# SBFL-Symbolic-Execution-MT
 Fault Localization in Model Transformations by Combining Symbolic Execution and Spectrum-Based Analysis
 
 This projects supports and verifies the evaluation performed in [1].
 
-There is an eclipse project, named SpecBased_FaultLoc_SyVOLT. This project contains the executable to compute the suspiciousness values with the 18 techniques. 
+Within this repository is an Eclipse project, named `SpecBased_FaultLoc_SyVOLT`. This project contains the executable to compute the suspiciousness values with the 18 techniques. 
 
 **Input** 
 
-There is a folder for each of the 9 case studies presented in the evaluation of [1]. Inside each of the folders, there is an XML file which is the output provided by the SyVOLT tool, where the symbolic execution of all the mutations and contracts are provided (refer to ). This is the *input* for the spectrum-based fault localization.
+There is a folder for each of the nine case studies presented in the evaluation of [1]. Inside each of the folders, there is an XML file which is the output provided by the SyVOLT tool, where the symbolic execution of all the mutations and contracts are provided (refer to ). This is the *input* for the spectrum-based fault localization.
 
-**Executable class**
+**Executable Class**
 
-The executable Java file is available
-*src->es.us.eii.fault.loc.syvolt.mt.main-> FaultLocalizationMT_Main*. In order to execute it with the different case studies, some lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting Run As -> Java Application. The code contains explanations for executing each case study in lines 38-48 of FaultLocalizationMT_Main.java
+The executable Java file is available at
+`src->es.us.eii.fault.loc.syvolt.mt.main-> FaultLocalizationMT_Main`. To execute it with the different case studies, some lines of code must be commented and uncommented. After doing so, the class can be executed by right-clicking and selecting `Run As` -> `Java Application`. The code contains explanations for executing each case study in lines 38-48 of `FaultLocalizationMT_Main.java`
 
 **Output**
 
@@ -25,7 +25,7 @@ When the execution finishes, the following outputs are provided in the correspon
 - A file named results_WC.csv with EXAM scores values for all mutants and all 18 techniques in the worst-case scenario
 - A file named contractsPercentages.csv with statistics of the contracts according to the classification given in the paper
 
-**z_OveralResults**
+**z_OverallResults**
 
 Additionally, this folder comprises the set of data that has been analyzed for the paper. This has been obtained from several executions with the different inputs
 
