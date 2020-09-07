@@ -8,15 +8,15 @@ We have followed the same approach, so we have *(N_{CF})^{2}* in the numerator o
 
 Note that the computation of these formulae may result in having zero in the denominator.Different approaches mention how to deal with such cases [16, 17, 18]. Following the guidelines of these works, if a denominator is zero and the numerator is also zero, our computation returns zero. However, if the numerator is not 0, then it returns 1 [16].
 
-The notatoin shown in the formulae is the following:
+The notatoin shown in the formulae is the following: <br>
 *Ncf*: number of failed PCs exercising the rule <br>
-*Nuf*: number of failed PCs not exercising the rule
-*Ncs*: number of successful PCs exercising the rule
-*Nus*: number of successful PCs not exercising the rule
-*Nc*: number of PCs exercising the rule
-*Nu*: number of PCs not exercising the rule
-*Ns*: number of successful PCs
-*Nf*: number of failed PCs
+*Nuf*: number of failed PCs not exercising the rule <br>
+*Ncs*: number of successful PCs exercising the rule <br>
+*Nus*: number of successful PCs not exercising the rule <br>
+*Nc*: number of PCs exercising the rule <br>
+*Nu*: number of PCs not exercising the rule <br>
+*Ns*: number of successful PCs <br>
+*Nf*: number of failed PCs <br>
 
 
 ![techniques](images/TechniquesWebsite.png)
