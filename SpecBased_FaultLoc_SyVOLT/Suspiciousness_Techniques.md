@@ -1,4 +1,4 @@
-## Suspiciousness techniques considered in the study <h2>
+## Suspiciousness techniques considered in the study <h1>
 
 There are several techniques proposed in the literature for suspiciousness computation. In this work we study how effective they are in the context of model transformation verification, i.e., how helpful they are in finding the faulty transformation rule. For this, we have surveyed papers that apply SBFL in different contexts and have selected the same 18 techniques that were collected in [1]. Each technique is displayed with the corresponding suspiciousness computation formulae in the table displayed below.
 
