@@ -3,7 +3,7 @@ Fault Localization in Model Transformations by Combining Symbolic Execution and 
 
 This projects supports and verifies the evaluation performed in [1].
 
-Within this repository there is an Eclipse project, named `SpecBased_FaultLoc_SyVOLT`. This project contains the executable to compute the suspiciousness values with the 18 techniques. 
+Within this repository there is an Eclipse project, named `SpecBased_FaultLoc_SyVOLT`. This project contains the executable to compute the suspiciousness values with the 18 techniques. The formulas and descriptions for each of the suspiciousness techniques are available [here](https://github.com/javitroya/sbfl-symbolic-execution-mt/blob/master/SpecBased_FaultLoc_SyVOLT/Suspiciousness_Techniques.md).
 
 **Input** 
 
